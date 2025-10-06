@@ -17,13 +17,13 @@ type ProjectType = {
 const ProjectCard = ({ project }: { project: ProjectType }) => {
     return (
         <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden flex flex-col shadow-lg hover:shadow-cyan-500/50 transition-all duration-300">
-            <div className="relative w-full h-48">
+            <div className="relative w-full h-48 bg-gray-50 dark:bg-gray-900">
                 <Link href={`/projects/${project.slug}`}>
                     <Image
                         src={project.image}
                         alt={`Screenshot of ${project.title}`}
                         fill={true}
-                        className="object-cover cursor-pointer"
+                        className="object-contain cursor-pointer p-2" // Changed to object-contain and added padding
                     />
                 </Link>
             </div>
