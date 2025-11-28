@@ -30,7 +30,7 @@ export const projects = [
         title: 'Axiom Pulse (Token Intelligence)',
         slug: 'axiom-pulse',
         description: 'A master-level token trading dashboard featuring virtualized tables and real-time price visualization.',
-        image: '/images/project-axiom-pulse.png',
+        image: '/images/Main_Dashboard.png',
         liveUrl: null,
         githubUrl: 'https://github.com/thistooshallpasss/realtime-token-intelligence-platform',
         technologies: ['Next.js 16', 'Redux Toolkit', 'TanStack Query', 'Recharts', 'Tailwind CSS'],
@@ -64,7 +64,7 @@ export const projects = [
         title: 'MovieEngine Pro (Amazon-Grade Search)',
         slug: 'movie-engine-pro',
         description: 'A production-grade search engine featuring fuzzy search, autocomplete, and ML-based recommendations.',
-        image: '/images/project-movie-engine.png',
+        image: '/images/search_pagination.png',
         liveUrl: null,
         githubUrl: 'https://github.com/thistooshallpasss/movie-search-engine',
         technologies: ['Elasticsearch', 'TypeScript', 'Redis', 'MongoDB', 'Python (ML)', 'Docker'],
@@ -86,7 +86,7 @@ export const projects = [
         title: 'Real-Time Meme Coin Aggregator',
         slug: 'meme-coin-aggregator',
         description: 'A high-performance backend service aggregating real-time data from DEXs using Redis, BullMQ, and WebSockets.',
-        image: '/images/project-meme-aggregator.png',
+        image: '/images/meme_coin_aggregator_2.png',
         liveUrl: 'https://meme-aggregator-plum.vercel.app/',
         githubUrl: 'https://github.com/thistooshallpasss/meme-aggregator',
         technologies: ['Node.js', 'Fastify', 'Redis', 'BullMQ', 'Socket.io', 'Docker', 'React'],
@@ -101,6 +101,8 @@ export const projects = [
             '/images/meme_coin_aggregator_2.png'
         ]
     },
+
+
 
     // ---------------- EXISTING PROJECTS (Unchanged) ----------------
 
