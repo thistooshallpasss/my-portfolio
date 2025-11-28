@@ -64,7 +64,7 @@ export const projects = [
         title: 'MovieEngine Pro (Amazon-Grade Search)',
         slug: 'movie-engine-pro',
         description: 'A production-grade search engine featuring fuzzy search, autocomplete, and ML-based recommendations.',
-        image: '/images/search_pagination.png',
+        image: '/images/search_main_page.png',
         liveUrl: null,
         githubUrl: 'https://github.com/thistooshallpasss/movie-search-engine',
         technologies: ['Elasticsearch', 'TypeScript', 'Redis', 'MongoDB', 'Python (ML)', 'Docker'],
